@@ -24,7 +24,7 @@ This repository documents **hands-on network configuration case studies** perfor
 ---
 
 ## Skills Demonstrated Across This Repository
-- Network design and segmentation (VLANs, subnets, zoning)
+- Network design and VLAN segmentation 
 - IP addressing, DHCP, and basic routing
 - Firewall and access control policy implementation
 - Wi-Fi architecture and SSID segmentation
@@ -37,7 +37,4 @@ This repository documents **hands-on network configuration case studies** perfor
 
 ## Roadmap / Planned Case Studies
 - Active Directory + DNS + GPO Network Hardening
-
-
----
 
