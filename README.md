@@ -22,7 +22,7 @@ The goal is to demonstrate practical IT support, networking, and security skills
 # Case Index
 
 - [VLAN Segmentation Deployment (Trusted / IoT / Guest)](cases/VLAN-Segmentation-Deployment.md)
-- [Wi-Fi Disconnections on IoT Devices](cases/wifi-disconnections.md)
+
 ---
 
 
