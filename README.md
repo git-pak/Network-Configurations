@@ -7,13 +7,11 @@ Real-World Home Lab & Small-Environment Networking Projects
 
 This repository documents **hands-on network configuration and troubleshooting case studies** performed in a home lab and small-environment setting.
 
-The purpose of this project is to demonstrate **practical IT, networking, and security skills** that are directly applicable to roles such as:
-
-- Help Desk / IT Support
-- Network Technician
-- Junior System Administrator
-- NOC / Cloud Support (entry level)
-
+- Real-world troubleshooting ability (not just theory)
+- Structured problem-solving and validation
+- Security-aware network design
+- Job-ready operational thinking
+- The ability to document and communicate technical work clearly
 ---
 
 ## Case Index
@@ -38,21 +36,8 @@ The purpose of this project is to demonstrate **practical IT, networking, and se
 
 ---
 
-## Why This Repository Exists
-
-This project serves as a **practical portfolio** to demonstrate:
-
-- Real-world troubleshooting ability (not just theory)
-- Structured problem-solving and validation
-- Security-aware network design
-- Job-ready operational thinking
-- The ability to document and communicate technical work clearly
-
-It is designed to support job applications, interviews, and technical discussions by providing **concrete, verifiable examples** of hands-on work.
-
----
-
 ## Roadmap / Planned Case Studies
+- Active Directory + DNS + GPO Network Hardening
 
 
 ---
