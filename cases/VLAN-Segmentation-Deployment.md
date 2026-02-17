@@ -194,17 +194,17 @@ Result:
 
 ---
 
-## 🧪 Validation Testing
+## Validation Testing
 
-✔ Each SSID receives correct VLAN subnet  
-✔ Guest devices cannot access LAN resources  
-✔ IoT cannot initiate connections to Trusted  
-✔ Trusted devices can control IoT devices  
-✔ Internet functional across all VLANs  
+Each SSID receives correct VLAN subnet  
+Guest devices cannot access LAN resources  
+IoT cannot initiate connections to Trusted  
+Trusted devices can control IoT devices  
+Internet functional across all VLANs  
 
 ---
 
-## 🛡 Security Improvements Achieved
+## Security Improvements Achieved
 
 - Layer 2 segmentation via 802.1Q VLANs
 - Layer 3 enforcement via firewall rules
@@ -214,7 +214,7 @@ Result:
 
 ---
 
-## 📊 Skills Demonstrated
+## Skills Demonstrated
 
 - VLAN design and implementation (802.1Q)
 - SSID-to-VLAN mapping
