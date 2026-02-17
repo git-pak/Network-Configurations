@@ -1,9 +1,9 @@
-# Network-Configurations
+# Network-Configurations Case Studies
 Real-World Home Lab & Small Environment Troubleshooting Scenarios
 
 ---
 
-## 📌 Overview
+## Overview
 
 This repository documents real-world network configuration and troubleshooting scenarios performed in a home lab environment.
 
@@ -19,10 +19,10 @@ The goal is to demonstrate practical IT support, networking, and security skills
 
 ---
 
-# 🗂 Case Index
+# Case Index
 
-1. VLAN Segmentation Deployment (Trusted / IoT / Guest)
-
+1. [VLAN Segmentation Deployment (Trusted / IoT / Guest)] ( )
+- [Wi-Fi Disconnections on IoT Devices](cases/wifi-disconnections.md)
 ---
 
 
