@@ -1,19 +1,11 @@
 # Network-Configurations Case Studies
-Real-World Home Lab & Small Environment Troubleshooting Scenarios
+Real-World Home Lab & Small Environment Network Configurations 
 
 ---
 
 ## Overview
 
-This repository documents real-world network configuration and troubleshooting scenarios performed in a home lab environment.
-
-Each case study focuses on:
-
-- Problem identification  
-- Root cause analysis  
-- Step-by-step remediation  
-- Verification testing  
-- Security and operational improvements  
+This repository documents real-world network configurations and troubleshooting scenarios performed in a home lab environment.
 
 The goal is to demonstrate practical IT support, networking, and security skills applicable to help desk, network technician, and junior system administrator roles.
 
