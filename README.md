@@ -16,7 +16,7 @@ The purpose of this project is to demonstrate **practical IT, networking, and se
 
 ---
 
-## 📂 Case Index
+## Case Index
 
 - [VLAN Segmentation Deployment (Trusted / IoT / Guest)](cases/VLAN-Segmentation-Deployment.md)
 
