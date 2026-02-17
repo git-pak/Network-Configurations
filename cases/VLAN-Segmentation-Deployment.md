@@ -45,7 +45,7 @@ This lab simulates small-business / enterprise segmentation principles using con
 
 ---
 
-## 🏗 Network Architecture
+## Network Architecture
 
 | Network  | VLAN ID | Subnet           | Purpose                  |
 |----------|----------|------------------|--------------------------|
@@ -86,7 +86,7 @@ Each VLAN is bound to its own bridge interface and DHCP scope.
 
 ---
 
-## 🔧 Step 1 – Flash ASUSWRT-Merlin
+## Step 1 – Flash ASUSWRT-Merlin
 
 1. Download firmware for RT-AX58U from ASUSWRT-Merlin.
 2. Log into the router at:  
@@ -142,7 +142,8 @@ Created three wireless networks:
 1. Connect a test device.
 2. Run: ipconfig
 3. Confirm IP address matches expected subnet.
-## 🔥 Step 5 – Inter-VLAN Firewall Policy
+
+## Step 5 – Inter-VLAN Firewall Policy
 
 Implemented firewall rules via:
 
