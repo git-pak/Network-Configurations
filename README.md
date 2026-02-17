@@ -19,7 +19,7 @@ This repository documents **hands-on network configuration case studies** perfor
 
 1. [VLAN Segmentation Deployment (Trusted / IoT / Guest)](cases/VLAN-Segmentation-Deployment.md)
 
-*(More case studies will be added over time, including routing, firewalling, DHCP/DNS failures, Wi-Fi troubleshooting, and security hardening scenarios.)*
+*(More case studies will be added over time)*
 
 ---
 
