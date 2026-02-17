@@ -17,7 +17,8 @@ The purpose of this project is to demonstrate **practical IT, networking, and se
 ---
 
 ## Case Index
-
+- [Case Template](templates/Network-Configurations.md)
+---
 - [VLAN Segmentation Deployment (Trusted / IoT / Guest)](cases/VLAN-Segmentation-Deployment.md)
 
 *(More case studies will be added over time, including routing, firewalling, DHCP/DNS failures, Wi-Fi troubleshooting, and security hardening scenarios.)*
