@@ -15,7 +15,7 @@ This repository documents **hands-on network configuration and troubleshooting c
 ---
 
 ## Case Index
-- [Case Template](templates/Network-Configurations.md)
+[Case Template](templates/Network-Configurations.md)
 1. [VLAN Segmentation Deployment (Trusted / IoT / Guest)](cases/VLAN-Segmentation-Deployment.md)
 
 *(More case studies will be added over time, including routing, firewalling, DHCP/DNS failures, Wi-Fi troubleshooting, and security hardening scenarios.)*
