@@ -4,14 +4,14 @@ Real-World Home Lab & Small-Environment Networking Projects
 ---
 
 ## Overview
-
-This repository documents **hands-on network configuration and troubleshooting case studies** performed in a home lab and small-environment setting.
+This repository documents **hands-on network configuration case studies** performed in a home lab and small-environment setting.
 
 - Real-world troubleshooting ability (not just theory)
 - Structured problem-solving and validation
 - Security-aware network design
 - Job-ready operational thinking
 - The ability to document and communicate technical work clearly
+
 ---
 
 ## Case Index
@@ -24,7 +24,6 @@ This repository documents **hands-on network configuration and troubleshooting c
 ---
 
 ## Skills Demonstrated Across This Repository
-
 - Network design and segmentation (VLANs, subnets, zoning)
 - IP addressing, DHCP, and basic routing
 - Firewall and access control policy implementation
