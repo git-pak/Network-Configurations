@@ -140,6 +140,86 @@ Created three wireless networks:
 ### Validation
 
 1. Connect a test device.
-2. Run:
+2. Run: ipconfig
+3. Confirm IP address matches expected subnet.
+## 🔥 Step 5 – Inter-VLAN Firewall Policy
 
+Implemented firewall rules via:
+
+/jffs/scripts/firewall-start
+
+### Policy Logic
+
+**Guest VLAN**
+- Block access to RFC1918 private ranges
+- Allow Internet only
+
+**IoT VLAN**
+- Block IoT → Trusted subnet
+- Allow Internet
+- Allow Established/Related traffic
+
+**Trusted VLAN**
+- Allow full access (or selectively allow IoT only)
+
+### Example Logic Representation
+
+Block IoT initiating to Trusted:
+
+192.168.20.0/24 → 192.168.10.0/24 = DROP
+
+Block Guest to internal networks:
+
+192.168.30.0/24 → 192.168.0.0/16 = DROP
+
+Allow Trusted to IoT:
+
+192.168.10.0/24 → 192.168.20.0/24 = ACCEPT
+
+---
+
+## 🔄 Step 6 – mDNS / Service Discovery Handling
+
+To maintain device discovery (AirPlay, Chromecast, IoT control):
+
+- Enabled mDNS reflection (if supported)
+- Allowed UDP 5353 between Trusted ↔ IoT
+- Restricted direction where possible
+
+Result:
+
+- Smart devices discoverable
+- IoT still isolated from Trusted devices
+
+---
+
+## 🧪 Validation Testing
+
+✔ Each SSID receives correct VLAN subnet  
+✔ Guest devices cannot access LAN resources  
+✔ IoT cannot initiate connections to Trusted  
+✔ Trusted devices can control IoT devices  
+✔ Internet functional across all VLANs  
+
+---
+
+## 🛡 Security Improvements Achieved
+
+- Layer 2 segmentation via 802.1Q VLANs
+- Layer 3 enforcement via firewall rules
+- Reduced lateral movement risk
+- Contained IoT attack surface
+- Guest isolation from internal infrastructure
+
+---
+
+## 📊 Skills Demonstrated
+
+- VLAN design and implementation (802.1Q)
+- SSID-to-VLAN mapping
+- Inter-VLAN firewall configuration
+- DHCP scope segmentation
+- Network security architecture
+- Service discovery troubleshooting (mDNS)
+- Enterprise-style segmentation in home lab
 
