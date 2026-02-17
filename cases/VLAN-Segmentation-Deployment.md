@@ -196,11 +196,11 @@ Result:
 
 ## Validation Testing
 
-Each SSID receives correct VLAN subnet  
-Guest devices cannot access LAN resources  
-IoT cannot initiate connections to Trusted  
-Trusted devices can control IoT devices  
-Internet functional across all VLANs  
+- Each SSID receives correct VLAN subnet  
+- Guest devices cannot access LAN resources  
+- IoT cannot initiate connections to Trusted  
+- Trusted devices can control IoT devices  
+- Internet functional across all VLANs  
 
 ---
 
