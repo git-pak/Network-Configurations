@@ -2,6 +2,8 @@
 Guest / IoT / Trusted Network Isolation using ASUSWRT-Merlin
 
 ---
+## Summary
+Segmented network using VLANs, inter-VLAN firewall policies, SSID-to-VLAN mapping, and DNS controls to reduce attack surface. 
 
 ## Problem Statement / Motivation
 
