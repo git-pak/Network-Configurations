@@ -1,10 +1,10 @@
-# Network Configuration Case Studies  
+# Networking Case Studies  
 Real-World Home Lab & Small-Environment Networking Projects
 
 ---
 
 ## Overview
-This repository documents **hands-on network configuration case studies** performed in a home lab and small-environment setting.
+This repository documents **hands-on networking case studies** performed in a home lab and small-environment setting.
 
 - Real-world troubleshooting ability (not just theory)
 - Structured problem-solving and validation
@@ -15,7 +15,7 @@ This repository documents **hands-on network configuration case studies** perfor
 ---
 
 ## Case Index
-[Template for Network Configuration Case Studies](templates/Network-Configurations.md)
+[Template for Networking Case Studies](templates/Network-Configurations.md)
 
 1. [VLAN Segmentation Deployment (Trusted / IoT / Guest)](cases/VLAN-Segmentation-Deployment.md)
 
